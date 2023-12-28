@@ -1,0 +1,37 @@
+.buttonContainer{
+    /* display: inline-flex;
+    padding: 10px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; */
+
+  display: block; /* Set the button to block level */
+  width: 100%; /* Take up the full width of the container */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Adjust padding based on your design */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+    border-radius: 6px;
+    background: #072564;
+    color: #FFF;
+    font-family: Microsoft Sans Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+
+  display: block; /* Set the button to block level */
+  width: 100%; /* Take up the full width of the container */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Adjust padding based on your design */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
