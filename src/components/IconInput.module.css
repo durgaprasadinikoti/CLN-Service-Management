@@ -1,0 +1,66 @@
+/* IconInput.css */
+.icon-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px;
+    color: #555;
+  }
+  
+  .input-field {
+    width: 330px;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(61, 61, 61, 0.30);
+    background: #FFF;
+    padding: 12px;
+  }
+
+  .input-field::placeholder {
+    color: rgba(61, 61, 61, 0.60);
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    letter-spacing: 0.36px;
+  }
+  
+  .custom-user-icon {
+    position: absolute;
+    right: 60px; /* Adjust the right position based on your design */
+    width: 40px; /* Adjust the width of your custom icon */
+    height: 40px; /* Adjust the height of your custom icon */
+    background-image: url("../assets/images/user.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .custom-password-icon {
+    position: absolute;
+    right: 10px; /* Adjust the right position based on your design */
+    width: 20px; /* Adjust the width of your custom icon */
+    top: 9px;
+    height: 40px; /* Adjust the height of your custom icon */
+    background-image: url("../assets/images/password.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 400
+  }
+
+  .passwordInputContainer {
+    position: absolute;
+    right: 60px; /* Adjust the right position based on your design */
+    width: 40px; /* Adjust the width of your custom icon */
+    height: 40px; /* Adjust the height of your custom icon */
+    border-radius: 6px;
+    border: 1px solid rgba(61, 61, 61, 0.30);
+    background: #072564;
+  }
